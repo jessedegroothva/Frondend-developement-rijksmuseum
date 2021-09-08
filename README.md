@@ -44,7 +44,7 @@ home
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Rijks studio 
-<img src="images/screenshot_pagina1_FED" width="375px" alt="studiopagina">
+<img src="images/screenshot_pagina1_FED.jpg" width="375px" alt="studiopagina">
  
 </details>
 
