@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Jesse de Groot
 
 #### Je startniveau:
-blauw 
+Blauw
 
 #### Je focus:
-responsive 
+surface plane
  
 </details>
 
@@ -36,14 +36,15 @@ responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.rijksmuseum.nl/nl/
+https://www.rijksmuseum.nl/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+home  
+<img src="images/screenshot_pagina2_FED.jpg" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Rijks studio 
+<img src="images/screenshot_pagina1_FED" width="375px" alt="studiopagina">
  
 </details>
 
