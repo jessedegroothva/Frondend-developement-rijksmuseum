@@ -87,6 +87,14 @@ samen met je groepje opstellen
 | Jesse
 | Hoe organiseer ik mijn CSS het best?
 | Hoe leer ik over responsive design?
+ 
+Bas; 
+-hoe je transitions in css nog spannender kan maken.
+-hoe je je code netjes houd
+
+Janice;
+-Hoe laat ik om de zoveel tijd een image bewegen?
+-Hoe laat ik iets (bijv. een tekst/a) in en uit zoomen als ik eroverheen hover of aanklik.
 
 
 
