@@ -1,0 +1,150 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color:#D55140;
+    --main-inverse-color:#fff;
+    --background-color:#40474f;
+    --text-color:#c2ccce;
+    --footer-background:#202327;
+
+}
+
+
+@font-face {
+    font-family: 'visionbold';
+    src: url('vision-bold-webfont.woff2') format('woff2'),
+         url('vision-bold-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+
+}
+
+body    {
+    font-family: 'visionbold';
+    background-color:var(--background-color);
+}
+
+p{
+    font-family: 'visionbold';
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: absolute;
+    left: 0;    
+    top: 0;
+    width: 100%;
+
+    padding: 15px 25px;
+}
+
+ul  {
+    list-style: none;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+header ul li:nth-of-type(2){
+    flex-grow:1;
+}
+
+header ul li:last-of-type a{
+    padding: 10px 20px;
+    background-color:var(--main-color);
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+header ul li a{
+    padding: 10px;
+    display: inline-block;
+}
+
+header svg{
+    width: 20px;
+}
+
+header svg path{
+    fill:var(--main-inverse-color);
+}
+
+.nav    {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    margin-top: 115px;
+}
+
+.nav h1{
+    font-family: 'visionbold';
+    font-size:3em;
+    text-align:center;
+    color:var(--main-inverse-color);
+    margin-top: 75px;
+}
+
+
+.nav ul:first-of-type {
+    display:flex;
+    flex-direction:row;
+    width: 60%;
+    
+}
+
+.nav ul{
+    padding:17.5px 20px;
+}
+
+.nav ul li a{
+    color:var(--text-color);
+    font-size: 1.2em;
+    line-height: 2.3em;
+}
+
+.nav ul:first-of-type li a {
+    color:var(--main-inverse-color);
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.nav ul:nth-child(4) li a {
+    color:var(--main-inverse-color);
+    font-size: 1em;
+}
+
+footer{
+    height: 220px;
+    background-color:var(--footer-background);
+}
+
+footer ul{
+    display:flex;
+    flex-wrap:wrap;
+    
+    padding: 20px;
+    margin: 20px;
+    height: 25px;
+    fill:var(--main-inverse-color);
+}
+
+footer ul li{
+    flex-basis:15%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color:#D55140;
+    --main-inverse-color:#fff;
+    --background-color:#ccc;
+    --background-highlight-color:#fff;
+
+}
+
+
+@font-face {
+    font-family: 'visionbold';
+    src: url('vision-bold-webfont.woff2') format('woff2'),
+         url('vision-bold-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+
+}
+
+body    {
+    font-family: 'visionbold';
+}
+
+h2    {
+
+    color:var(--main-inverse-color);
+    line-height: 2em;
+    font-family: 'visionbold'; 
+    font-size:1.5em;
+
+}
+
+p   {
+    color:var(--main-inverse-color);
+}
+
+header{
+    position: absolute;
+    left: 0;    
+    top: 0;
+    width: 100%;
+
+    padding: 15px 25px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+header ul li:nth-of-type(2){
+    flex-grow:1;
+}
+
+header ul li:last-of-type a{
+    padding: 10px 20px;
+    background-color:var(--main-color);
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+header ul li a{
+    padding: 10px;
+    display: inline-block;
+}
+
+header svg{
+    width: 20px;
+    
+}
+
+header svg path{
+    fill:var(--main-inverse-color);
+}
+
+.sec1   {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('../img/sec1-01.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+      
+}
+
+.sec1 h1{
+    font-family: 'visionbold';
+    font-size:3em;
+    text-align:center;
+    color:var(--main-inverse-color);
+    margin-top: 75px;
+}
+
+.sec1 div   {
+    padding: 30px 20px;
+}
+
+.sec2   {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url('../img/sec2-01.jpg'); /*Sanne heeft het goed gekeurd*/
+    background-size: 100%;
+    background-position:center;
+    height: 100vh;  
+
+    padding: 30px 20px;
+    transition: .350s;
+}
+
+.sec2:hover {
+    background-size: 110%;
+}
