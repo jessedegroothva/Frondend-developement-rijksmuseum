@@ -75,11 +75,11 @@ Rijks studio
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>Verder met de website en leren over het element: Position</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Deze week hebben wij positioning geoefend, ook ben ik verder gegaan met mijn website. Daar ben ik ben begonnen met het maken van de gallerij pagina.
+<img src="images/screenshot_week2.jpg" width="375px" alt="week2 voortgang gallerij">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -101,10 +101,8 @@ Janice;
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Door veel aantekeningen te maken wat je doet op de site
+- Daar zal ik nog een week voor moeten wachten. Dan beginnen we met grids en responsive design.
 
 </details>
 
@@ -115,12 +113,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>Verder met de website en leren over Grids en animeren</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben verder met de website gegaan en heb de gallerij pagina af (op small screen).
 
-
+<img src="images/schreenshot_gallerij_smallscreen_af.png" width="375px" alt="week3 voortgang gallerij">
+ 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
@@ -133,10 +132,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ga geen lijsten gebruiken. Het beste is om 5 secties aan te maken, en die te gaan stijlen met flexbox.
+- Het is een beetje rommelig, probeer meer comments te schijven bij je code zodat het overzichtelijk blijft. Gebruik ook veel [enter] om ruimte te creeën.
 
 </details>
 
@@ -147,33 +144,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary>Deze week hebben wij usability testen gedaan bij de fysieke samenkomst..</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - gebruik meer linkjes bij de afbeeldingen
+ - Vergeet niet de omschijving toe te voegen bij afbeeldingen
+ - let op contrast bij buttons
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+gebruik meer linkjes bij de afbeeldingen zodat mensen met de :focus state meer van de site kunnen zien.
+Linkjes bedoel ik mee /* <a></a> */
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+vergeet de alt='' niet bij afbeeldingen. schrijf nuttige informatie op zodat mensen die niet kunnen zien wel weten waar de pagina over gaat.
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+houd het contrast boven 3.5. Dan kunnen mensen die slecht zient zijn ook op de website. Dit kun je zien als je het element inspecteerd. als het onder 3.5 is, staat er een 
+rood kruisje bij, als het er boven is, staat er een groene vink.
 
 </details>
 
@@ -184,10 +174,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>Ik ben verder gaan werken aan mijn website. De small screens zijn af van index, gallerij en nav. Ook zijn de laatste loodjes van de website. In mijn geval is dat doorwerken</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het was voor mij behoorlijk lastig omdat ik niet heel veel kennis had van html en css. Daarom heb ik als ik vast liep hulp gevraagd aan de student assistenten. Zij hebben mij met veel geduld en uitleg weten te vertellen hoe ik voor multi-device-design te werk kan gaan.
+
+<img src="images/schreenshot_gallerij_mediumscreen_af.png" width="375px" alt="week4 voortgang gallerij medium screen">
+<img src="images/schreenshot_gallerij_largescreen_af.png" width="375px" alt="week4 voortgang gallerij large screen">
+<img src="images/schreenshot_nav_smallscreen.png" width="375px" alt="week4 voortgang nav small screen>
+<img src="images/schreenshot_nav_medium_large_screen.png" width="375px" alt="week4 voortgang nav small screen>
 
 
 ### Agenda voor meeting
@@ -201,8 +196,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Hoe ik met grid de footer kan stylen
+- hoe ik alleen bij large screen elementen kan toevoegen
 - nog een punt
 - ...
 
