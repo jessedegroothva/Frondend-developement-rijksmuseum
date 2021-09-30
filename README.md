@@ -22,7 +22,7 @@ Jesse de Groot
 Blauw
 
 #### Je focus:
-surface plane
+responsive
  
 </details>
 
@@ -193,11 +193,9 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Jesse de Groot
+ Hoe kan ik mijn footer stijlen?
+ Hoe zorg ik ervoor dat bij gallerij.html, dat de 'home' button aan de linker kant komt en dat language, inloggen en giftshop toegevoegd word aan de rechterkant?
 
 
 ### Verslag van meeting
