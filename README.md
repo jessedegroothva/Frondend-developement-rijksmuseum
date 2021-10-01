@@ -78,7 +78,9 @@ Rijks studio
 <summary>Verder met de website en leren over het element: Position</summary>
 
 ### Stand van zaken
-Deze week hebben wij positioning geoefend, ook ben ik verder gegaan met mijn website. Daar ben ik ben begonnen met het maken van de gallerij pagina.
+Deze week hebben wij positioning geoefend, ook ben ik verder gegaan met mijn website. 
+Ook ben ik begonnen met het maken van de gallerij pagina.
+ 
 <img src="images/screenshot_week2.jpg" width="375px" alt="week2 voortgang gallerij">
 
 ### Agenda voor meeting
@@ -179,11 +181,18 @@ rood kruisje bij, als het er boven is, staat er een groene vink.
 ### Stand van zaken
 Het was voor mij behoorlijk lastig omdat ik niet heel veel kennis had van html en css. Daarom heb ik als ik vast liep hulp gevraagd aan de student assistenten. Zij hebben mij met veel geduld en uitleg weten te vertellen hoe ik voor multi-device-design te werk kan gaan.
 
-<img src="images/schreenshot_gallerij_mediumscreen_af.png" width="375px" alt="week4 voortgang gallerij medium screen">
-<img src="images/schreenshot_gallerij_largescreen_af.png" width="375px" alt="week4 voortgang gallerij large screen">
-<img src="images/schreenshot_nav_smallscreen.png" width="375px" alt="week4 voortgang nav small screen>
-<img src="images/schreenshot_nav_medium_large_screen.png" width="375px" alt="week4 voortgang nav small screen>
+<img src="images/big_screen_gallerij.png" alt="week4 voortgang gallerij big screen">
+<img src="images/medium_screen_gallerij.png" alt="week4 voortgang gallerij medium screen">
+<img src="images/small_screen_gallerij.png" alt="week4 voortgang gallerij small screen>
 
+                                                           
+<img src="images/big_screen_index.png" alt="week4 voortgang index big screen">
+<img src="images/medium_screen_index.png" alt="week4 voortgang index medium screen">
+<img src="images/small_screen_index.png" alt="week4 voortgang index small screen>
+
+<img src="images/big_screen_nav.png" alt="week4 voortgang nav big screen">
+<img src="images/medium_screen_nav.png" alt="week4 voortgang nav medium screen">
+<img src="images/small_screen_nav.png" alt="week4 voortgang nav small screen>
 
 ### Agenda voor meeting
 samen met je groepje opstellen
