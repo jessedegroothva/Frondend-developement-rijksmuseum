@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+/*****************************/
+/* CUSTOM PROPERTIES - JESSE */
+/*****************************/
 :root {
     --main-color:#D55140;
     --main-inverse-color:#fff;
-    --background-color:#ccc;
-    --background-highlight-color:#fff;
+    --background-color:#40474f;
+    --text-color:#c2ccce;
+    --footer-background:#202327;
+    --footer-linkbackground:#333333
 
 }
 
@@ -27,18 +36,24 @@ body    {
 }
 
 h2    {
-
     color:var(--main-inverse-color);
     line-height: 2em;
     font-family: 'visionbold'; 
     font-size:1.5em;
-
 }
 
 p   {
     color:var(--main-inverse-color);
 }
 
+
+
+
+
+
+/*****************************/
+/* HEADER - JESSE */
+/*****************************/
 header{
     position: absolute;
     left: 0;    
@@ -46,6 +61,10 @@ header{
     width: 100%;
 
     padding: 15px 25px;
+}
+
+ul  {
+    list-style: none;
 }
 
 header ul{
@@ -57,15 +76,15 @@ header ul{
     list-style: none;
 }
 
+/* stijlen/positioneren - navigatie & zoek button */
 header ul li:nth-of-type(2){
     flex-grow:1;
 }
 
-header ul li:last-of-type a{
-    padding: 10px 20px;
-    background-color:var(--main-color);
-    text-decoration: none;
-    color:var(--main-inverse-color);
+/* navigatie & zoek button focus state */
+header section ul li a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
 }
 
 header ul li a{
@@ -74,15 +93,88 @@ header ul li a{
 }
 
 header svg{
-    width: 20px;
-    
+    width: 20px;  
 }
 
 header svg path{
     fill:var(--main-inverse-color);
 }
 
-.sec1   {
+/* language inloggen & giftshop - buttons */
+header ul li:nth-child(3) a, 
+header ul li:nth-child(4) a,
+header ul li:nth-child(5) a {
+    display: none;
+    color: var(--main-inverse-color);
+    list-style: none;
+}
+
+
+/* language button focus/hover state */
+header ul li:nth-child(3) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(3) a:hover {
+    text-decoration: underline;
+}
+
+/* inloggen button focus/hover state */
+header ul li:nth-child(4) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(4) a:hover {
+    text-decoration: underline;
+}
+
+/* giftshop button focus/hover state */
+header ul li:nth-child(5) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(5) a:hover {
+    text-decoration: underline;
+}
+
+/* stijlen ticket - button */
+header ul li:last-of-type a {
+    padding: 10px 20px;
+    background-color:var(--main-color);
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+header ul li:last-of-type a:hover {
+    padding: 10px 20px;
+    background-color:var(--main-inverse-color);
+    text-decoration: none;
+    color:var(--background-color);
+}
+
+header ul li:last-of-type a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+
+
+
+/*****************************/
+/* MAIN - JESSE */
+/*****************************/
+
+/* sec1 */
+
+main section:first-of-type svg {
+    width: 100%;
+    padding: 75px 5% 0 5%;
+}
+
+main section:first-of-type {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,22 +183,34 @@ header svg path{
     background-size: cover;
     background-position:center;
     height: 100vh;
-      
 }
 
-.sec1 h1{
-    font-family: 'visionbold';
-    font-size:3em;
-    text-align:center;
-    color:var(--main-inverse-color);
-    margin-top: 75px;
-}
 
-.sec1 div   {
+main section:first-of-type div {
     padding: 30px 20px;
 }
 
-.sec2   {
+/* titel sectie 1 - link stijlen */
+main section:first-of-type div a {
+    text-decoration: none;
+}
+
+main section:first-of-type div h2:hover {
+    text-decoration: underline;
+}
+
+main section:first-of-type div h2:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+/* einde sec1 */
+
+
+
+
+
+/* sec2 */
+main > section:nth-child(2)    {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -120,6 +224,362 @@ header svg path{
     transition: .350s;
 }
 
-.sec2:hover {
-    background-size: 110%;
+main > section:nth-child(2):hover {
+    background-size: 105%;
+}
+
+/* titel sectie 2 - link stijlen */
+main > section:nth-child(2) a {
+    text-decoration: none;
+}
+
+main > section:nth-child(2) a:hover {
+    text-decoration: underline;
+    color:var(--main-inverse-color);
+}
+
+main > section:nth-child(2) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+/* einde sec2 */
+
+
+
+
+
+
+/* sec3 */
+main section:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url('../img/sec3-01.jpg'); /*Sanne heeft het goed gekeurd*/
+    background-size: 100%;
+    background-position:center;
+    height: 100vh;  
+
+    padding: 30px 20px;
+    transition: .350s;
+}
+
+/* titel sectie 3 - link stijlen */
+main section:nth-child(3) a {
+    text-decoration: none;
+}
+
+main section:nth-child(3) a:hover {
+    text-decoration: underline;
+    color:var(--main-inverse-color);
+}
+
+main section:nth-child(3) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+/* einde sec3 */
+
+
+
+
+
+
+/* sec4 */
+main div section:nth-child(1)    {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url('../img/sec5-01.jpg'); /*Sanne heeft het goed gekeurd*/
+    background-size: 100%;
+    background-position:center;
+    height: 50vh;  
+
+    padding: 30px 20px;
+    transition: .350s;
+}
+
+/* titel sectie 4 - link stijlen */
+main div section:nth-child(1) a {
+    text-decoration: none;
+}
+
+main div section:nth-child(1) a:hover {
+    text-decoration: underline;
+    color:var(--main-inverse-color);
+}
+
+main div section:nth-child(1) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+/* einde sec4 */
+
+
+
+
+
+
+/* begin sec5 */
+main div section:nth-child(2)    {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url('../img/sec6-01.jpg'); /*Sanne heeft het goed gekeurd*/
+    background-size: 100%;
+    background-position:center;
+    height: 50vh;  
+
+    padding: 30px 20px;
+    transition: .350s;
+}
+
+/* titel sectie 4 - link stijlen */
+main div section:nth-child(2) a {
+    text-decoration: none;
+}
+
+main div section:nth-child(2) a:hover {
+    text-decoration: underline;
+    color:var(--main-inverse-color);
+}
+
+main div section:nth-child(2) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+/* einde sec5 */
+
+
+
+/*****************************/
+/* FOOTER - JESSE */
+/*****************************/
+
+/* algemene stijling footer */
+footer{
+    background-color:var(--footer-background);
+    padding: 0 10px 10px 10px;
+
+}
+
+/* over ons t/m contact */
+footer section:first-of-type {
+    padding: 30px 0 60px 0;
+}
+
+footer section:first-of-type p {
+    font-size: 1.3em;
+    color:var(--text-color);
+}
+
+
+
+
+
+
+
+/* over ons t/m contact */
+footer section:nth-child(2) ul {
+    padding-bottom: 30px;
+}
+
+footer section:nth-child(2) ul li {
+    padding: 10px 0px;
+}
+
+footer section:nth-child(2) ul li a {
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+footer section:nth-child(2) ul li a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+
+
+
+
+
+/* steun ons t/m anbi logo */
+footer section:nth-child(3) ul:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+footer section:nth-child(3) ul:first-of-type li:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+footer section:nth-child(3) ul:last-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* steun ons t/m contact - stijlen */
+footer section:nth-child(3) ul:first-of-type li a {
+    background-color:var(--footer-linkbackground);
+    padding: 15px 40px;
+    margin-bottom: 15px;
+
+    text-decoration: none;
+    color:var(--main-inverse-color);
+    list-style: none;
+}
+
+footer section:nth-child(3) ul:first-of-type li a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+
+
+
+/* instagram icoon t/m youtube icoon */
+footer section:nth-child(3) ul:first-of-type li:last-of-type a {
+    padding: 0px;
+}
+
+footer section:nth-child(3) ul:last-of-type li img {
+    width: 20px;
+    height: auto;
+    display: block;
+    list-style-type: none;
+}
+
+
+/* sponsor 1 t/m sponsor 5 */
+footer section:nth-child(4) ul{
+    display:flex;
+    flex-wrap:wrap;
+    
+    padding: 20px;
+    margin: 20px;
+    height: 25px;
+    fill:var(--main-inverse-color);
+}
+
+footer section:nth-child(4) ul li{
+    flex-basis:15%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+/* algemene voorwaarden t/m herroepingsrecht */
+footer section:nth-child(5) {
+    padding: 190px 0 0 0;
+    display: inline-block;
+}
+
+/* naast elkaar zetten */
+footer section:nth-child(5) ul {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+footer section:nth-child(5) ul li {
+    list-style: none;
+}
+
+/* stijling */
+footer section:nth-child(5) p {
+    font-size: 1.1em;
+    color:var(--text-color);
+    padding: 0px 5px 0px 0px;
+}
+
+
+
+
+
+
+/*****************************/
+/* Medium screen + Big screen - JESSE */
+/*****************************/
+
+@media (min-width:32em) {
+	footer {
+		grid-template-columns:2fr 1fr 1fr;
+	}
+	
+	section:nth-of-type(4),
+	section:nth-of-type(5) {
+		grid-column-start:1;
+		grid-column-end:-1;
+	}
+
+    /* laat 3 characters zien bij de nav */
+    header ul li:nth-child(3) a, 
+    header ul li:nth-child(4) a,
+    header ul li:nth-child(5) a {
+        display: block;
+        color: var(--main-inverse-color);
+        list-style: none;
+    }
+
+    main section:nth-child(4),
+    main section:nth-child(5) {
+        width: 50%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main div section:nth-child(1),
+    main div section:nth-child(2) {
+        flex: 1;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        padding: 1em;
+    }
+
+    footer section:first-of-type {
+        grid-column: span 2;
+    }
+    
+    footer section:nth-child(3) ul:nth-child(2) {
+        padding: 1em;
+    }
+
+    footer section:nth-child(4),
+    footer section:nth-child(5) {
+        grid-column: span 2;
+    }
+    
+    footer section:nth-child(5) {
+        padding: 0;
+        padding-top: 80px;
+    }
+
+
+}
+
+@media (min-width:40em) {
+	section:nth-of-type(4) {
+		grid-column-end:2;
+	}
+	section:nth-of-type(5) {
+		grid-column-start:2;
+	}
+
 }
