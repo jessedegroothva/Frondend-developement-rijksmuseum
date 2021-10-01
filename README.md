@@ -123,6 +123,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 Ik ben verder met de website gegaan en heb de gallerij pagina af (op small screen).
 
+
+ <img src="images/small_screen_index_week3.png" width="375px" alt="week3 voortgang index">
 <img src="images/schreenshot_gallerij_smallscreen_af.png" width="375px" alt="week3 voortgang gallerij">
  
 ### Agenda voor meeting
