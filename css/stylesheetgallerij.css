@@ -1,0 +1,719 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*****************************/
+/* CUSTOM PROPERTIES - JESSE */
+/*****************************/
+:root {
+    --main-color:#D55140;
+    --main-inverse-color:#fff;
+    --main-buttonbackground:#343537;
+    --background-color:#40474f;
+    --text-color:#c2ccce;
+    --footer-background:#202327;
+    --footer-linkbackground:#333333;
+    --button-background:#5e99b0;
+    --button-background2:#aaa04d;
+    
+
+}
+
+
+@font-face {
+    font-family: 'visionbold';
+    src: url('vision-bold-webfont.woff2') format('woff2'),
+         url('vision-bold-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+
+}
+
+body    {
+    font-family: 'visionbold';
+}
+
+h2    {
+    color:var(--main-inverse-color);
+    line-height: 2em;
+    font-family: 'visionbold'; 
+    font-size:1.5em;
+}
+
+a   {
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+
+
+
+/*****************************/
+/* HEADER - JESSE */
+/*****************************/
+header{
+    position: absolute;
+    left: 0;    
+    top: 0;
+    width: 100%;
+
+    padding: 15px 25px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+/* navigatie button focus state */
+header ul li:first-of-type a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* zoeken button focus state */
+header ul li:nth-child(2) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* houd de ticket button aan de linker kant */
+header ul li:nth-child(3) {
+    margin-right: auto;
+}
+
+/* home - button */
+header ul li:nth-child(3) a{
+    background-color:var(--footer-background);
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+header ul li:nth-child(3) a:hover{
+    background-color:var(--main-inverse-color);
+    color: var(--main-buttonbackground);
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+/* language button focus/hover state */
+header ul li:nth-child(4) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(4) a:hover {
+    text-decoration: underline;
+}
+
+
+/* inloggen button focus/hover state */
+header ul li:nth-child(5) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(5) a:hover {
+    text-decoration: underline;
+}
+
+/* giftshop button focus/hover state */
+header ul li:nth-child(6) a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+header ul li:nth-child(6) a:hover {
+    text-decoration: underline;
+}
+
+
+/* language inloggen & giftshop - buttons */
+header ul li:nth-child(4), 
+header ul li:nth-child(5),
+header ul li:nth-child(6) {
+    display: none;
+}
+
+/* ticket - button*/
+header ul li:last-of-type a {
+    padding: 10px 20px;
+    background-color:var(--main-color);
+    text-decoration: none;
+    color:var(--main-inverse-color);
+}
+
+header ul li:last-of-type a:hover {
+    padding: 10px 20px;
+    background-color:var(--main-inverse-color);
+    text-decoration: none;
+    color:var(--background-color);
+}
+
+header ul li:last-of-type a:focus{
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* stijlen header */
+header ul li a{
+    padding: 10px;
+    display: inline-block;
+}
+
+/* navigatie & zoeken grootte aanpassen/stijlen */
+header svg{
+    width: 20px; 
+}
+
+header svg path{
+    fill:var(--main-inverse-color);
+}
+
+
+
+
+
+/*****************************/
+/* SLIDESHOW + HEADER*/
+/*****************************/
+main {
+    position: relative;
+}
+
+main section:first-of-type svg {
+    grid-column: span 4;
+    width: 100%;
+    padding: 10% 5%;
+}
+
+
+main section:first-of-type  {
+    display: flex;
+    flex-direction: column;
+
+
+    background-image: url('..//img/unnamed.jpg');
+    background-size: cover;
+    background-position:center;   
+}
+
+main section:first-of-type h1{
+    font-family: 'visionbold';
+    font-size:4.2em;
+    text-align:left;
+    color:var(--main-inverse-color);
+    margin-top: 130px;
+    width: 40%;
+}
+
+main section:first-of-type p {
+    margin-left: 20px;
+    color: var(--main-inverse-color);
+}
+
+/* maak je eigen rijksstudio - button */
+main section:first-of-type a:first-of-type {
+  background-color:var(--main-color);
+  border: none;
+  color:var(--main-inverse-color);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+main section:first-of-type a:first-of-type:hover {
+  background-color:var(--main-inverse-color);
+  border: none;
+  color:var(--main-buttonbackground);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+main section:first-of-type a:first-of-type:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+main section:first-of-type > div {
+    background-color: var(--footer-background);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+main section:first-of-type div h2 {
+    display: none;
+}
+
+main section:first-of-type {
+    padding: 30px 0px 0px 0px;
+}
+
+main section:nth-child(2) ul {
+  display:flex;
+  overflow-x:auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior:none;
+}
+
+main section:nth-child(2) ul li {
+  scroll-snap-align: center;
+  display:flex;
+  flex-direction:column;
+}
+
+/* zoek je rijksstudio - button */
+main section:first-of-type a:nth-child(2) {
+    background-color:var(--main-buttonbackground);
+    border: none;
+    color:var(--main-inverse-color);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+main section:first-of-type a:nth-child(2):hover {
+    background-color:var(--main-inverse-color);
+    border: none;
+    color:var(--footer-background);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+main section:first-of-type a:nth-child(2):focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);   
+}
+
+main section:nth-child(2) ul li figure img{
+    width: 360px;
+    padding:35px 20px 0px 15px;
+}
+
+/* positionering/ stijlen img Rembrandt */
+main section:nth-child(2) ul li figure a:first-of-type {
+    background-color: var(--main-inverse-color);
+    padding: 0;
+    margin: 0;
+}
+
+main section:nth-child(2) ul li figure a:first-of-type:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* positionering/ stijlen img Vermeer & schilderijen */
+main section:nth-child(2) ul li figure a:nth-child(2) {
+    background-color: var(--main-inverse-color);
+    padding: 0;
+    margin: 0;
+}
+
+main section:nth-child(2) ul li figure a:nth-child(2):focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* positionering/ stijlen img schilderijen */
+main section:nth-child(2) ul li figure a:nth-child(3) {
+    background-color: var(--main-inverse-color);
+    padding: 0;
+    margin: 0;
+}
+
+main section:nth-child(2) ul li figure a:nth-child(3):focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* positionering titel */
+main section:nth-child(2) ul li figcaption h3 {
+    color:var(--main-buttonbackground);
+    line-height: 1em;
+    font-family: 'visionbold'; 
+    font-size:1.1em;
+
+    padding: 7px 0px 7px 15px;
+}
+
+/* positionering/ grootte Rijksmuseum img */
+main section:nth-child(2) ul li figcaption img {
+    padding: 7px 0px 7px 15px;
+    height: 30px;
+}
+
+/* Meer hoogtepunten - button */
+main section:nth-child(2) ul li a {
+    background-color:var(--button-background);
+    border: none;
+    color:var(--main-inverse-color);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    margin: 7px 0px 7px 15px;
+}
+
+main section:nth-child(2) ul li a:hover {
+    background-color:var(--main-buttonbackground);
+    border: none;
+    color:var(--main-inverse-color);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    margin: 7px 0px 7px 15px;
+}
+
+main section:nth-child(2) ul li a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+ 
+/*****************************/
+/* EINDE SLIDESHOW + HEADER*/
+/*****************************/
+
+
+
+
+
+
+
+
+
+
+/*****************************/
+/* MAIN - JESSE */
+/*****************************/
+
+main section.grid {
+    padding: 1em 1em;
+}
+
+/* Nu in Rijksstudio - titel */
+main section.grid h2 {
+    color:var(--main-buttonbackground);
+    line-height: 1em;
+    font-family: 'visionbold'; 
+    font-size:2.2em;
+    padding: 0.9em 0 0.4em 0;
+}
+
+/* Blader door 727.625 - zin */
+main section.grid h3 {
+    color: var(--main-buttonbackground);
+    font-weight: lighter;
+    font-family: 'visionbold';
+    font-size: 1em;
+    padding-bottom: 12px;
+}
+
+/* toon nieuwe verzamelingen - link */
+main section.grid a {
+    color: var(--main-buttonbackground);
+    padding-bottom: 12px;
+    list-style: none;
+}
+
+main section.grid a:hover {
+    text-decoration: underline;
+}
+
+main section.grid a:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* maken van grid */
+main section.grid ul {
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    list-style: none;
+    padding-top: 1.5em;
+}
+
+main section.grid ul li {
+    grid-row: span 3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main section.grid ul li:nth-of-type(1) {
+    grid-row: span 10;
+}
+
+
+
+
+
+/*****************************/
+/* LI 1 - JESSE - FLOWERS*/
+/*****************************/
+/* focus state voor alle links */
+main section.grid ul li:first-of-type a:first-of-type:focus {
+    border: 2px solid var(--main-inverse-color);
+    outline: 3px solid var(--main-color);
+}
+
+/* stijlen - titel */
+main section.grid ul li:first-of-type h4 {
+    color: var(--main-buttonbackground);
+    font-weight: bold;
+    font-family: 'visionbold';
+    font-size: 1.2em;
+
+    margin: 0px 0px 6px;
+}
+
+/* stijlen - Paul Joseph Constantin Gabriël, ca. 1889 */
+main section.grid ul li:first-of-type p {
+    color: var(--text-color);
+    font-weight: normal; 
+    font-family: 'visionbold';
+    font-size: 1em;
+    margin: 0px 0px 12px;
+}
+
+/* groene link onder molen - button */
+main section.grid ul li:first-of-type a:last-of-type {
+    background-color:var(--button-background2);
+    border: none;
+    color:var(--main-inverse-color);
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    width: 45%;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+/*****************************/
+/* LI 2 - JESSE - FLOWERS*/
+/*****************************/
+
+/* font aanpassen titel */
+main section.grid ul li:nth-of-type(2) h4 {
+    color: var(--main-buttonbackground);
+    font-weight: bold;
+    font-family: 'visionbold';
+    font-size: 1.2em;
+
+    margin: 0px 0px 6px;
+}
+
+/* groene button onder flowers */
+main section.grid ul li:nth-of-type(2) a:nth-of-type(2) {
+    background-color:var(--button-background2);
+    border: none;
+    color:var(--main-inverse-color);
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 5px;
+    width: 45%;
+    margin-top: 0.5em;
+}
+
+/* order veranderen van flowers */
+main section.grid ul li:nth-of-type(2) h4 {
+    order: 2;
+}
+
+main section.grid ul li:nth-of-type(2) a:first-of-type {
+    order: 1;
+}
+
+main section.grid ul li:nth-of-type(2) p {
+    order: 3;
+}
+
+main section.grid ul li:nth-of-type(2) a {
+    order: 4; 
+}
+
+main section.grid ul li img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*****************************/
+/* LI 3 - JESSE - LUCAS*/
+/*****************************/
+/* positionering/ hoogte rijksmuseum img */
+main section.grid ul li:nth-of-type(3) > img {
+    padding-top: 0.5em;
+    width: 45%;
+}
+
+/* font aanpassen titel */
+main section.grid ul li:nth-of-type(3) h4 {
+    color: var(--main-buttonbackground);
+    font-weight: bold;
+    font-family: 'visionbold';
+    font-size: 1.2em;
+
+    margin: 0px 0px 6px;
+}
+
+
+
+
+
+
+/*****************************/
+/* LI 4 - JESSE - duik dieper in de collecie met stories*/
+/*****************************/
+
+/* lijst stijlen */
+main section.grid ul li:last-of-type {
+    padding: 25px;
+    background-color: var(--button-background);
+    margin: 25px 0px 0px 0px;
+} 
+
+/* titel stijlen - duik dieper in de collecie met stories */
+main section.grid ul li:last-of-type h2 {
+    font-size: 1.7em;
+    line-height: 1em;
+    color: var(--main-inverse-color);
+
+    margin: 0px 0px 25px 0px;
+}
+
+/* button stijlen - bekijk de stories */
+main section.grid ul li:last-of-type a {
+    padding: 10px 30px 10px 12px;
+    margin: 0px 0px 25px;
+    background-color: var(--main-color);
+    color: var(--main-inverse-color);
+    font-size: auto;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+
+
+/*****************************/
+/* Medium screen & Big screen */
+/*****************************/
+
+@media only screen and (min-width: 475px) {
+
+    /*  stijlen - header*/
+    main section:first-of-type div div {
+        display: inline-block;
+        margin-left: auto;
+    }    
+
+    main section:first-of-type div h2 {
+        display: inline-block;
+        line-height: 1em;
+    }
+
+    main section:first-of-type div a {
+        height: fit-content;
+        
+    }
+
+    /* lijst - stijlen */
+    main section.grid {
+        padding: 0 2em;
+    }
+    
+    main section.grid ul {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+
+    main section.grid ul li {
+        grid-row: span 2;
+    }
+
+    /* laat 3 characters zien bij de nav */
+    header ul li:nth-child(4), 
+    header ul li:nth-child(5),
+    header ul li:nth-child(6) {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    main section.grid {
+        padding: 0 60px;
+    }
+    
+    main section.grid ul {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 45px;
+    }
+}
+
