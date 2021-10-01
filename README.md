@@ -40,12 +40,15 @@ https://www.rijksmuseum.nl/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 home  
-<img src="images/screenshot_pagina2_FED.jpg" width="375px" alt="homepagina">
+<img src="images/ss_website_index.png" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Rijks studio 
-<img src="images/screenshot_pagina1_FED.jpg" width="375px" alt="studiopagina">
- 
+<img src="images/ss_website_gallerij.png" width="375px" alt="studiopagina">
+
+#### Screenshot(s) van de tweede pagina (small screen):
+Rijks studio 
+<img src="images/ss_website_nav.png" width="375px" alt="navigatie">
 </details>
 
 
