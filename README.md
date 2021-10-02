@@ -212,9 +212,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Hoe ik met grid de footer kan stylen
 - hoe ik alleen bij large screen elementen kan toevoegen
-- nog een punt
-- ...
-
+ 
+### Microinteractie
+Stap 1, als je op de nav.html pagina bevind zie je linksboven een zoek knop. Druk daarop:
+<img src="images/mircointeractie_1.png" alt="microinteractie stap 1>
+Stap 2, Door javascript code heb ik een popup naar voren laten komen:
+<img src="images/mircointeractie_2.png" alt="microinteractie stap 2>
 </details>
 
 
