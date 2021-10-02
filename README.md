@@ -183,6 +183,12 @@ rood kruisje bij, als het er boven is, staat er een groene vink.
 <details>
 <summary>Ik ben verder gaan werken aan mijn website. De small screens zijn af van index, gallerij en nav. Ook zijn de laatste loodjes van de website. In mijn geval is dat doorwerken</summary>
 
+ ### Microinteractie
+Stap 1, als je op de nav.html pagina bevind zie je linksboven een zoek knop. Druk daarop:
+<img src="images/mircointeractie_1.png" alt="microinteractie stap 1>
+Stap 2, Door javascript code heb ik een popup naar voren laten komen:
+<img src="images/mircointeractie_2.png" alt="microinteractie stap 2>
+ 
 ### Stand van zaken
 Het was voor mij behoorlijk lastig omdat ik niet heel veel kennis had van html en css. Daarom heb ik als ik vast liep hulp gevraagd aan de student assistenten. Zij hebben mij met veel geduld en uitleg weten te vertellen hoe ik voor multi-device-design te werk kan gaan.
 
@@ -213,11 +219,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Hoe ik met grid de footer kan stylen
 - hoe ik alleen bij large screen elementen kan toevoegen
  
-### Microinteractie
-Stap 1, als je op de nav.html pagina bevind zie je linksboven een zoek knop. Druk daarop:
-<img src="images/mircointeractie_1.png" alt="microinteractie stap 1>
-Stap 2, Door javascript code heb ik een popup naar voren laten komen:
-<img src="images/mircointeractie_2.png" alt="microinteractie stap 2>
 </details>
 
 
