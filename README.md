@@ -193,19 +193,6 @@ Stap 1, als je op de nav.html pagina bevind zie je linksboven een zoek knop. Dru
 ### Stand van zaken
 Het was voor mij behoorlijk lastig omdat ik niet heel veel kennis had van html en css. Daarom heb ik als ik vast liep hulp gevraagd aan de student assistenten. Zij hebben mij met veel geduld en uitleg weten te vertellen hoe ik voor multi-device-design te werk kan gaan.
 
-<img src="images/big_screen_gallerij.png" alt="week4 voortgang gallerij big screen">
-<img src="images/medium_screen_gallerij.png" alt="week4 voortgang gallerij medium screen">
-<img src="images/small_screen_gallerij.png" alt="week4 voortgang gallerij small screen>
-
-                                                           
-<img src="images/big_screen_index.png" alt="week4 voortgang index big screen">
-<img src="images/medium_screen_index.png" alt="week4 voortgang index medium screen">
-<img src="images/small_screen_index.png" alt="week4 voortgang index small screen>
-
-<img src="images/big_screen_nav.png" alt="week4 voortgang nav big screen">
-<img src="images/medium_screen_nav.png" alt="week4 voortgang nav medium screen">
-<img src="images/small_screen_nav.png" alt="week4 voortgang nav small screen>
-
 ### Agenda voor meeting
 samen met je groepje opstellen
 
