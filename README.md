@@ -232,11 +232,22 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week zal ik het eindgesprek voeren. Ik zal de code moeten uitleggen die ik heb geschreven en die ik samen met de student assistenten heb gemaakt. Ook zal ik mijn voortgang bespreken en alle nieuwe dingen die ik daarbij heb geleerd!
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/big_screen_gallerij.png" alt="week4 voortgang gallerij big screen">
+<img src="images/medium_screen_gallerij.png" alt="week4 voortgang gallerij medium screen">
+<img src="images/small_screen_gallerij.png" alt="week4 voortgang gallerij small screen>
+
+                                                           
+<img src="images/big_screen_index.png" alt="week4 voortgang index big screen">
+<img src="images/medium_screen_index.png" alt="week4 voortgang index medium screen">
+<img src="images/small_screen_index.png" alt="week4 voortgang index small screen>
+
+<img src="images/big_screen_nav.png" alt="week4 voortgang nav big screen">
+<img src="images/medium_screen_nav.png" alt="week4 voortgang nav medium screen">
+<img src="images/small_screen_nav.png" alt="week4 voortgang nav small screen>
 
 </details>
 
@@ -251,8 +262,32 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+Bronnenlijst:
+- diplay block/block/inline block
+https://www.w3schools.com/css/css_display_visibility.asp
+
+- A Complete Guide to Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://codepen.io/jessehva/pen/vYZxxYq?editors=1100
+
+- A Complete Guide to Grid
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://www.smashingmagazine.com/understanding-css-grid-template-areas/
+- How to use z-index:
+https://www.freecodecamp.org/news/z-index-in-css-what-it-is-and-what-it-does/#:~:text=Z%20Index%20(%20z%2Dindex%20),%2C%20or%20position%3Afixed%20).
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column?retiredLocale=nl
+
+- How to use media query
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+- How to use position absolute
+https://codepen.io/jessehva/pen/ZEyyjgW
+
+- curser
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor?retiredLocale=nl
+
+- how to use order in css
+https://www.w3schools.com/cssref/css3_pr_order.asp
+
 
 </details>
