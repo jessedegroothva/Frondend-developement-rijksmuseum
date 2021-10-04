@@ -234,7 +234,8 @@ Deze week zal ik het eindgesprek voeren. Ik zal de code moeten uitleggen die ik 
 
 <img src="images/big_screen_nav.png" alt="week4 voortgang nav big screen">
 <img src="images/medium_screen_nav.png" alt="week4 voortgang nav medium screen">
-<img src="images/small_screen_nav.png" alt="week4 voortgang nav small screen>
+<img src="images/small_screen_nav.png" alt="week4 voortgang nav small screen">
+
 
 </details>
 
